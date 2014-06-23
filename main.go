@@ -67,6 +67,7 @@ func main() {
 		if err != nil {
 			log.Println(err)
 		}
+		log.Println("New connection attempt from " + conn.RemoteAddr().String())
 		go handleConnection(conn)
 	}
 }

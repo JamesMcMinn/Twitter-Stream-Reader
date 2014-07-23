@@ -8,11 +8,7 @@ the case code to be used for both experimental and live testing.
 This requires the following packages:
  - mirgit.dcs.gla.ac.uk/JamesMcMinn/twitter
 
-<<<<<<< HEAD
 Required packages can be installed using `go get packagepath`
-=======
- Required packages can be installed using `go get packagepath`
->>>>>>> acc98bd827c6bd3c18627ed7ca0f896b7d50925c
 
 ## Installing
 Twitter Stream Reader can be installed using a number of methods.
@@ -22,11 +18,7 @@ The easiest method is to simply run `main.go` using the `go run` command:
 
 To  build the application binary, `go build` can be used:
 
-<<<<<<< HEAD
     go build mirgit.dcs.gla.ac.uk/JamesMcMinn/twitter-stream-reader
-=======
-    run `go build mirgit.dcs.gla.ac.uk/JamesMcMinn/twitter-stream-reader`
->>>>>>> acc98bd827c6bd3c18627ed7ca0f896b7d50925c
 
 This will generate the binary in your current directory.
 

@@ -14,13 +14,14 @@ Required packages can be installed using `go get packagepath`
 Twitter Stream Reader can be installed using a number of methods.
 
 The easiest method is to simply run `main.go` using the `go run` command: 
+
     go run main.go
 
-To  build the application binary, `go build` can be used:
+To build the application binary, `go build` can be used and will generate
+the binary in your current directory.
 
     go build mirgit.dcs.gla.ac.uk/JamesMcMinn/twitter-stream-reader
 
-This will generate the binary in your current directory.
 
 ## Usage
 The stream reader has 2 modes:
@@ -53,3 +54,11 @@ parse any JSON, and output it in the same format used the Streaming API. In this
 use port 85632 rather than the default port or 8053.
  
     go run main.go -if=/home/james/tweets.json -port=85632
+
+
+## Listening to the Stream
+Simply connect to the machine where the stream reader is running. To perform a quick test use the 
+Linux `nc` command, which will output the data it receives:
+
+    nc localhost 8053
+    

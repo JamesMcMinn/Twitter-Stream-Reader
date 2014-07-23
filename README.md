@@ -24,21 +24,22 @@ This will generate the binary in your current directory.
 
 ## Usage
 The stream reader has 2 modes:
-	- **File Mode**: Opens and reads a file, simulating the Twitter gardenhose
+ - **File Mode**: Opens and reads a file, simulating the Twitter gardenhose
 	for testing and development.
-	- **Live Mode**: Using a set of specified keys, connect to the Twitter 
+ - **Live Mode**: Using a set of specified keys, connect to the Twitter 
 	steaming API and read the gardenhose.
 
 ### Parameters
+The following is a list of parameters used by Twitter Stream Reader. 
 
-  -ck= Consumer Key
-  -cs= Consumer Secret
-  -os= OAuthTokenSecret
-  -ot= OAuth Token
+    -ck= Consumer Key
+    -cs= Consumer Secret
+    -os= OAuthTokenSecret
+    -ot= OAuth Token
 
-  -if= Input File to read from for File Mode
+    -if= Input File to read from for File Mode
 
-  -port= (Optional) Port to listen on which other applications can connect to. Optional. Default: 8053
+    -port= (Optional) Port to listen on which other applications can connect to. Optional. Default: 8053
 
 
 ### Live Mode Example
